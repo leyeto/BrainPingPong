@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &__select {
+    margin-left: 10px;
+  }
+
+  &__button {
+    width: 200px;
+  }
+}

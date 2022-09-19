@@ -1,0 +1,23 @@
+body {
+  background-color: #73877b;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  width: min(100% - 4rem, 1090px);
+  margin: auto;
+}
+
+.hero {
+  background-image: url("../public/hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    color: white;
+    font-size: 3rem;
+  }
+}
